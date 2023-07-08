@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;700&display=swap");
+
+.temoignagePage {
+  background-color: #f5f5f5;
+  min-height: 100vh;
+  font-family: "Open Sans", sans-serif;
+}
+
+.temoignagesContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.temoignageTitle {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 20px 0;
+}
+
+.temoignage {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.temoignageButtons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.temoignageDeleteButton {
+  background-color: #cc6464;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.temoignagesEditButton {
+  background-color: #64ccc5;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.temoignageAddButton {
+  background-color: #64ccc5;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.temoignageAddButtonContainer {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.temoignageAddLink {
+  text-decoration: none;
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .temoignagesContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

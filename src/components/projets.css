@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;700&display=swap");
+
+.projets {
+  min-height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.projetsTitle {
+  font-family: "Open Sans", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+  color: #333;
+}
+
+.projetsContainer {
+  width: 80%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.projetsCards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.projetsCard {
+  border-radius: 10px;
+  padding: 20px;
+  background: #fff;
+}
+
+.projetsCardImage {
+  width: 100%;
+  height: 200px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.projetsCardImage img {
+  width: 100%;
+  height: 200px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.projetsCardLink {
+  text-decoration: none;
+  color: #000;
+}
+
+@media screen and (max-width: 768px) {
+  .projetsContainer {
+    width: 90%;
+  }
+
+  .projetsCards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .projetsCardImage,
+  .projetsCardImage img {
+    height: auto;
+  }
+}
