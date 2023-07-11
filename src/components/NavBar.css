@@ -1,60 +1,59 @@
 .navBar {
-    height: 10vh;
-    position: sticky;
-    background-color: white;
-    top: 0;
-    z-index: 1;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 10px;
-  }
-  
+  height: 10vh;
+  position: sticky;
+  background-color: white;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.navBarContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+}
+
+.navBarLinks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+.navBarLinks li {
+  list-style: none;
+}
+
+.navBarLinks a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.navBarContact {
+  background-color: #64ccc5;
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+
+.navBarLogo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+@media screen and (max-width: 768px) {
   .navBarContent {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 80%;
-    margin: auto;
+    width: 90%;
   }
-  
-  .navBarLinks {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 40px;
-  }
-  
-  .navBarLinks li {
-    list-style: none;
-  }
-  
   .navBarLinks a {
-    text-decoration: none;
-    color: black;
-    font-size: 1.2rem;
-    font-weight: bold;
+    font-size: 0.8rem;
   }
-  
-  .navBarContact {
-    background-color: #64ccc5;
-    border-radius: 5px;
-    padding: 10px 15px;
-  }
-  
-  .navBarLogo {
-    font-size: 1.5rem;
-    font-weight: bold;
-    text-decoration: none;
-    color: black;
-  }
-  
-  @media screen and (max-width: 768px) {
-    .navBarContent {
-      width: 90%;
-    }
-    .navBarLinks a {
-      font-size: 0.8rem;
-    }
-  }
-  
+}

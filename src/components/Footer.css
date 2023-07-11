@@ -1,0 +1,19 @@
+.Footer {
+    background-color: #1e2125;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+  }
+  
+  .socialMedia {
+    display: flex;
+    gap: 20px;
+  }
+  
