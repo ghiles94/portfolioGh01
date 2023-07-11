@@ -7,12 +7,12 @@ export const temoignagesSlice = createSlice({
       {
         id: 1,
         name: "Jean",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae ",
+        text: "Le développeur web a réalisé un travail exceptionnel pour mon site. Je suis très satisfaite de son professionnalisme et de son expertise. Je le recommande vivement ",
       },
       {
         id: 2,
         name: "Pierre",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae ",
+        text: "J'ai été impressionné par le talent du développeur web. Il a créé un site web attrayant et fonctionnel en un temps record. Je le recommande sans hésitation !",
       },
     ],
   },
