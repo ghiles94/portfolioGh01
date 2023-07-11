@@ -1,0 +1,56 @@
+.temoignageEditPage {
+    background-color: #f5f5f5;
+    min-height: 100vh;
+  }
+  
+  .temoignageEditCont {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .temoignageEditForm {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .temoignageEditForm input {
+    width: 80%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .temoignageEditButton {
+    width: 80%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #64ccc5;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .temoignageEditCont {
+      width: 60%;
+    }
+  
+    .temoignageEditForm input {
+      width: 60%;
+    }
+  
+    .temoignageEditButton {
+      width: 60%;
+    }
+  }
+  
