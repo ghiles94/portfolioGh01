@@ -8,7 +8,7 @@ const projets = [
     titre: "Projet en C# ",
     description:
       "Développement d'une application en C# avec pour objectif de gérer les commandes d’un restaurant",
-    image: "https://picsum.photos/1920/1080",
+    image: "./csharp.png",
     technologies: "C#, .NET, SQL Server",
     role: "Programmation des fonctionnalités principales, conception de l'architecture logicielle.",
   },
@@ -17,7 +17,7 @@ const projets = [
     titre: "Projet avec Express et Vue.js ",
     description:
       "Création d'une application web complète utilisant Express pour le backend et Vue.js pour le frontend. L'application permettait de gérer une pizzeria autant que gestionnaire.",
-    image: "https://picsum.photos/1920/1080",
+    image: "./vue.png",
     technologies: "Express, Vue.js, MongoDB",
     role: "Implémentation des routes, création des modèles de données, conception des interfaces utilisateur",
   },
@@ -26,7 +26,7 @@ const projets = [
     titre: "Projet avec React",
     description:
       "Réalisation d'un projet utilisant React pour créer une interface utilisateur réactive et dynamique. L'objectif était de créer une page portfolio qui contient une interface plus des compétences qui aide à la recherche d’un emploi.",
-    image: "https://picsum.photos/1920/1080",
+    image: "./react.png",
     technologies: "React, HTML, CSS, JavaScript",
     role: "Création des composants, gestion de l'état, intégration des API.",
   },
